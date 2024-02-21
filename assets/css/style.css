@@ -205,6 +205,43 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
+/**************************Testimonials starting*****************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.swiper-container {
+  width: 80%;
+  margin: 50px auto;
+  position: relative; /* Ensure relative positioning for the container */
+}
+
+.swiper-slide {
+  background: linear-gradient(to right, rgb(179, 227, 245), rgb(250, 198, 206));
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 45px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.testimonial p {
+  margin: 0;
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
+
+/*********************Testimonials ending*********************************/
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
