@@ -31,6 +31,15 @@
   <!-- font awesome cdn -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+  <!---For upcomiing event timer------>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!----For Testimonials------------->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
@@ -137,46 +146,147 @@
     </section><!-- End About Section -->
 
     <!-- ======= Skills Section ======= -->
-    <section id="Orientation" class="skills section-bg">
-      <div class="container">
+
+    <!--------------------------------------Upcoming event starts--------------------------------->
+  <section id="Orientation" class="skills section-bg" style="background: linear-gradient(to right, rgb(179, 227, 245), rgb(250, 198, 206));">
+    <div class="container">
+      <!--<div class="skills section tittle">--->
+          <h1>UPCOMING EVENTS</h1>
+        <!-- Event 1 -->
         <section class="container-fluid px-0">
           <div class="skills section-title">
-            <h2>UpComing Events</h2>
+            <h2>Upcoming Event 1</h2>
           </div>
-          
+    
           <div class="row align-items-center content">
-            
-
             <div class="col-md-6">
-              <img src="assets/img/recruitments2022.PNG" alt="" class="img-fluid">
+              <img src="Event_imgss\orientation2022.jpeg" alt="image" class="img-fluid">
             </div>
-
+    
             <div class="col-md-6 text-center">
               <div class="row justify-content-center">
-
                 <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                  <h2>Recruitments</h2>
-
-                  <img src="" alt="" class="d-none d-lg-inline">
-                
-                    <p>
-                      "We are each other’s harvest; we are each other’s business; we are each other’s magnitude and bond."</b><br>
-                      Finally, the wait is over! CODEBENDERS is recruiting members<br>If you feel you want to contribute to society, if you want to show your potential 
-                      and grow with CODEBENDERS, this is the time, you can apply here and become a valuable member of CODEBENDERS.
-                     <br><br>
-                     
-          <br>
-          It's your time to flaunt your skills in Codebenders and grow with us.💫<br><br>
-          <b>Deadline: 5th Dec, 11:59PM<br></b> <br> <button type="button" class="btn btn-outline-danger"><a href="https://forms.gle/rr38MYqST3Xd3LMN8">Apply Here</a></button>
+                  <h2>Event 1 Details</h2>
+                  <!-- Update content for Event 1 -->
+                  <p>
+                    "Event 1 description goes here."
+                    <br><br>
+                    Participate in event 1<br><br>
+                    <b>Deadline: Event 1 Deadline goes here</b>
+                    <br>
+                    <div id="event1Timer"></div><br>
+                    <button type="button" class="btn btn-outline-danger"><a href="Event1_Application_Link">Apply Here</a></button>
                   </p>
-                 
-
                 </div>
               </div>
             </div>
           </div>
+        </section>
+    
+        <!-- Event 2 -->
+        <section class="container-fluid px-0">
+          <div class="skills section-title">
+            <h2>Upcoming Event 2</h2>
+          </div>
+    
+          <div class="row align-items-center content">
+            <div class="col-md-6 order-md-2">
+              <img src="Event_imgss\orientation20222.jpeg" alt="Image" class="img-fluid">
+            </div>
+    
+            <div class="col-md-6 text-center">
+              <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                  <h2>Event 2 Details</h2>
+                  <!-- Update content for Event 2 -->
+                  <p>
+                    "Event 2 description goes here."
+                    <br><br>
+                    Participate in Event 2<br><br>
+                    <b>Deadline: Event 2 Deadline goes here</b>
+                    <br>
+                    <div id="event2Timer"></div><br>
+                    <button type="button" class="btn btn-outline-danger"><a href="Event2_Application_Link">Apply Here</a></button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Event 3 -->
+        <section class="container-fluid px-0">
+          <div class="skills section-title">
+            <h2>Upcoming Event 3</h2>
+          </div>
+    
+          <div class="row align-items-center content">
+            <div class="col-md-6">
+              <img src="Event_imgss\orientation20222.jpeg" alt="Image" class="img-fluid">
+            </div>
+    
+            <div class="col-md-6 text-center">
+              <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                  <h2>Event 3 Details</h2>
+                  <!-- Update content for Event 3 -->
+                  <p>
+                    "Event 3 description goes here."
+                    <br><br>
+                    Participate Event 3<br><br>
+                    <b>Deadline: Event 3 Deadline goes here</b>
+                    <br>
+                    <div id="event3Timer"></div><br>
+                    <button type="button" class="btn btn-outline-danger"><a href="Event3_Application_Link">Apply Here</a></button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
+    </div>
+  </section>
+    
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- ountdown Timer Script -->
+    <script>
+      // Function to initialize countdown timer
+      function initializeTimer(timerId, deadline) {
+        var now = new Date().getTime();
+        var timeRemaining = deadline - now;
+    
+        var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+    
+        document.getElementById(timerId).innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    
+        if (timeRemaining < 0) {
+          document.getElementById(timerId).innerHTML = "Expired";
+        }
+      }
+    
+      // Set the deadline for each event
+      var event1Deadline = new Date("Dec 5, 2024 23:59:59").getTime();
+      var event2Deadline = new Date("Dec 5, 2024 23:59:59").getTime();
+      var event3Deadline = new Date("Dec 5, 2024 23:59:59").getTime();
+    
+      // Update the timers every second
+      setInterval(function () {
+        initializeTimer("event1Timer", event1Deadline);
+        initializeTimer("event2Timer", event2Deadline);
+        initializeTimer("event3Timer", event3Deadline);
+      }, 1000);
+    </script>
+    
+    
+    <!-----------------------------------------------Upcoming events ending------------------------------------------------>
     </div>
     <br>
 
@@ -191,7 +301,7 @@
     <!--     End Skills Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio section-bg" style="background: linear-gradient(to right, rgb(179, 227, 245), rgb(250, 198, 206));">
       <div class="container">
 
         <div class="section-title">
@@ -452,7 +562,7 @@
 
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
+    <section id="services" class="services section-bg" style="background: linear-gradient(to right, rgb(179, 227, 245), rgb(250, 198, 206));">
       <div class="container">
 
         <div class="section-title">
@@ -506,88 +616,63 @@
 
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
+     
+    <div class="swiper-container">
 
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Hear from the Alumnus &amp; Ex-Codebenders!</p>
-        </div>
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <p>"When I joined IGDTUW in my first year, I was looking for communities that aligned with my interests
+                and values. Codebenders was a society that seemed to check all the boxes for me and I am glad I was able to join
+                it. The past 4 years at Codebenders have been extremely fulfilling.
+                I was able to be a part of a team that organised numerous sessions on different technologies,
+                workshops and coding contests. Many of these events have ended with sweet messages from participants about how they found it helpful.
+                Knowing that we are able to make a positive influence in the lives of students has been the biggest
+                sources of motivation and happiness for our team.
+                Looking forward to another year of exciting events, learning and sisterhood!"</p>
+              <cite>- Ria Arora</cite>
+              <cite>Ex-President &amp; Codebender</cite> 
+           </div>
+          <div class="swiper-slide">
+              <p>"Codebenders has been an important part of my four years journey in IGDTUW. It has helped me in my
+                overall development. From attending the sessions organised by Codebenders in the first year to being
+                part of the Codebenders team for three years, this journey has proven to be extremely fruitful. From
+                learning as a junior to guiding my juniors and organising sessions, events and coding contests, I
+                found a better version of myself. With an objective to explore, learn and grow together,we
+                (Codebenders) are confident that our efforts of sharing our knowledge will help the students in their
+                future and we could continue this further."</p>
+              <cite>- Komal Kirti</cite>
+              <cite>Ex-President &amp; Codebender</cite>
+          </div>
+          <div class="swiper-slide">
+            <p>"CodeBenders has been an essential part of my college life. The journey from a volunteer to President
+              has been a rollercoaster ride filled with learnings and gratitude. When I reflect on my four years at CodeBenders, it brings back so many memories. I have met some
+              amazing folks in these past four years at CodeBenders, who have guided me at each step and prepared me
+              in unpredictable ways for life ahead. It’s been a long journey from attending workshops, sessions to
+              organising them for the juniors. The sheer satisfaction that we get to see on their faces after
+              conducting a successful event motivated us to keep moving forward towards our goal of inculcating a
+              culture of coding in the university. I am extremely grateful to everyone who has been a part of this journey and All the best to the
+              upcoming team!"</p>
+            <cite>- Pallavi Bishnoi</cite>
+            <cite>Ex-President &amp; Codebender</cite>
+          </div>
+        
+          <!-- Add more testimonials as needed -->
+      </div>
+      
+  
+      <!-- Add Navigation -->
+      <div class="swiper-button-next" style="color: black;"></div>
+      <div class="swiper-button-prev" style="color: black;"></div>
+  </div>
 
-        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  When I joined IGDTUW in my first year, I was looking for communities that aligned with my interests
-                  and values.
-                  Codebenders was a society that seemed to check all the boxes for me and I am glad I was able to join
-                  it.
-                  The past 4 years at Codebenders have been extremely fulfilling.
-                  I was able to be a part of a team that organised numerous sessions on different technologies,
-                  workshops and coding contests.
-                  Many of these events have ended with sweet messages from participants about how they found it helpful.
-                  Knowing that we are able to make a positive influence in the lives of students has been the biggest
-                  sources of motivation and happiness for our team.
-                  Looking forward to another year of exciting events, learning and sisterhood!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Ria Arora</h3>
-                <h4>Ex-President &amp; Codebender</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Codebenders has been an important part of my four years journey in IGDTUW. It has helped me in my
-                  overall development. From attending the sessions organised by Codebenders in the first year to being
-                  part of the Codebenders team for three years, this journey has proven to be extremely fruitful. From
-                  learning as a junior to guiding my juniors and organising sessions, events and coding contests, I
-                  found a better version of myself. With an objective to explore, learn and grow together,we
-                  (Codebenders) are confident that our efforts of sharing our knowledge will help the students in their
-                  future and we could continue this further.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Komal Kirti</h3>
-                <h4>Ex-President &amp; Codebender</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  CodeBenders has been an essential part of my college life. The journey from a volunteer to President
-                  has been a rollercoaster ride filled with learnings and gratitude.
-
-                  When I reflect on my four years at CodeBenders, it brings back so many memories. I have met some
-                  amazing folks in these past four years at CodeBenders, who have guided me at each step and prepared me
-                  in unpredictable ways for life ahead. It’s been a long journey from attending workshops, sessions to
-                  organising them for the juniors. The sheer satisfaction that we get to see on their faces after
-                  conducting a successful event motivated us to keep moving forward towards our goal of inculcating a
-                  culture of coding in the university.
-
-                  I am extremely grateful to everyone who has been a part of this journey and All the best to the
-                  upcoming team!
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Pallavi Bishnoi</h3>
-                <h4>Ex-President &amp; Codebender</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-
-    </section><!-- End Testimonials Section -->
+    
+    <!-- End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <section id="contact" class="contact section-bg" style="background: linear-gradient(to right, rgb(179, 227, 245), rgb(250, 198, 206));">
       <div class="container">
 
         <div class="section-title">
@@ -650,7 +735,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <footer id="footer" style="background: linear-gradient(to right, rgb(179, 227, 245), rgb(250, 198, 206));">
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><a

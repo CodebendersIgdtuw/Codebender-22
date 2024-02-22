@@ -17,6 +17,7 @@ body {
   color: #5a656e;
   font-size: 500;
   overflow-x: hidden !important;
+  background: linear-gradient(to right, rgb(179, 227, 245), rgb(250, 198, 206));
 
 }
 
@@ -204,6 +205,40 @@ h1, h2, h3, h4, h5, h6 {
   left: 100%;
   visibility: visible;
 }
+
+
+/**************************Testimonials starting*****************************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.swiper-container {
+  width: 80%;
+  margin: 50px auto;
+  position: relative; /* Ensure relative positioning for the container */
+}
+
+.swiper-slide {
+  background: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  padding: 45px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.testimonial p {
+  margin: 0;
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+}
+/*********************Testimonials ending*********************************/
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -599,7 +634,7 @@ section {
 /*--------------------------------------------------------------
 # Orientation
 --------------------------------------------------------------*/
-#Orientation a:hover {
+/* #Orientation a:hover {
   color:  white;
 }
 .skills h3{
@@ -622,9 +657,9 @@ section {
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
-  font-weight: 500;
+  font-weight: 500; */
   /* font-family: "Poppins", sans-serif; */
-  color: #2c4964;
+  /* color: #2c4964;
 }
 
 .skills .progress .skill .val {
@@ -644,7 +679,7 @@ section {
 }
 .section-title{
   margin-left: 40px !important;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
