@@ -220,8 +220,8 @@ body {
 }
 
 .swiper-slide {
-  background: linear-gradient(to right, rgb(179, 227, 245), rgb(250, 198, 206));
-  border: 1px solid #ccc;
+  background: whitesmoke;
+  border: 1px solid whitesmoke;
   border-radius: 20px;
   padding: 45px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
